@@ -165,7 +165,7 @@ footer span{
   font-size: 30px;
 }
 footer{
-  margin-top: 45px;
+ 
   background-color: #030006;
   color: #e9e8e5;
 }
@@ -227,6 +227,10 @@ footer{
     #contact{
       height: 610px;
       background-color: #030006;
+    }
+    footer{
+      margin-top: 35px;
+  
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
