@@ -250,28 +250,43 @@
   <div class="row">
 
     <div class="col-sm-6" id="contact-text">
-      <h1>Contact With Me</h1>
+      <h1>Contact With Me</h1>  
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique.</p>
+      <p>Mobile Number: <span>+4368864818152</span></p><p>Email: <span>jvortelinas@gmail.com</span></p>
+   
     </div>
     <div class="col-sm-6" id="contact-input">
 
-<form action="" method="post">
+
+      <script src="lib/index.js"></script>
+
+      <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      ></script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("5XON576ncESEV7opm");
+        })();
+        
+      </script>
+
   <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Name</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+        <input type="text" class="form-control"  id="name"placeholder="">
       </div>
       <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">Email</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+        <input type="text" class="form-control"    id="email" placeholder="">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
       </div>
       <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
+        <button class="btn btn-primary"  onclick="sendMail()" type="submit">Send</button>
       </div>
-</form>
+
     </div>   
   </div>
 </div>

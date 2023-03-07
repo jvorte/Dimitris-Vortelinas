@@ -144,6 +144,14 @@ padding-top: 250px;
      color: #f3eef8;
      font-size: 15px;
       }
+      #contact-text span{
+        color: red;
+        font-family: 'Square Peg', cursive;
+        font-size: 30px;
+      }
+      lottie-player{
+        float: left;
+      }
 
 /* ------------------------------------------------------- */
 
