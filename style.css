@@ -319,23 +319,11 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1024px) {
   .card{
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 18rem; 
     height: 24rem;
-
   }
 }
 @media only screen and (max-width: 1024px) {
-
-  #contact{
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
 
 }
 /* ============================================ */
