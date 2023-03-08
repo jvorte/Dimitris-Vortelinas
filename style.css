@@ -327,9 +327,13 @@ footer{
     height: 24rem;
 
   }
+  #contact{
+    height: 690px;
+
+  }
   
   footer{
-    margin-top: 115px;
+    margin-top: 130px;
 
   }
 
