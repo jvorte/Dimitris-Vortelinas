@@ -123,6 +123,7 @@ padding-bottom: 50px;
 
 .card{
   width: 21rem;
+  height: 23rem;
  text-align: center;
   border-radius: 15px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -137,6 +138,7 @@ border: 1px solid #868889;
 }
 .card h6{
   font-family: 'Poppins', sans-serif;
+  
 }
 .card img{
   border-radius: 15px; 
@@ -297,8 +299,8 @@ footer{
       width: 18rem;   
       display: block;
       margin-left: auto;
-      margin-right: auto
-    
+      margin-right: auto;
+      height: auto;
     }
 
     footer{
@@ -314,8 +316,16 @@ footer{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {...}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1024px) {
+  .card{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem; 
+    height: 24rem;
 
+  }
 
 }
 /* ============================================ */
