@@ -1,10 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Oooh+Baby&family=Square+Peg&display=swap');
 /* font-family: 'Hurricane', cursive;
-font-family: 'Inspiration', cursive;
-font-family: 'Oooh Baby', cursive;
-font-family: 'Square Peg', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -45,13 +49,13 @@ font-family: 'Square Peg', cursive; */
   margin-top: 170px;
 }
 #top h1{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
     color: aliceblue;
     font-size: 5vw;
     margin: 170px 0 0 0;
 }
 #top p{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
     color:#868889;
     font-size: 20px;
     margin: 30px 0 0 0 ;
@@ -77,7 +81,7 @@ font-family: 'Square Peg', cursive; */
   height: 950px;
   padding-top: 200px;
   color: #414141;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
   
 }
 #me2 h1{
@@ -85,13 +89,13 @@ font-family: 'Square Peg', cursive; */
   margin-top: 40px;
   text-align: center;
   font-size: 50px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
 
 }
 .list-group-item{
   background-color: transparent;
   color: #414141;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
   
 }
 /* ------------------------------------------------------- */
@@ -102,7 +106,7 @@ font-family: 'Square Peg', cursive; */
 
 #projects h1{
 text-align: center;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
 font-size: 50px;
 color: #414141;
 }
@@ -124,13 +128,13 @@ padding-bottom: 50px;
 }
 #contact h1 {
 color: white;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
 font-size: 50px;
 padding-top: 250px;
 }
 #contact p ,label {
   color: white;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
   
   }
 #contact-text{
@@ -146,11 +150,20 @@ padding-top: 250px;
       }
       #contact-text span{
         color: red;
-        font-family: 'Square Peg', cursive;
-        font-size: 30px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 28px;
       }
-      lottie-player{
-        float: left;
+   
+      #btn{
+        background-color: rgb(92, 85, 85);
+        color:white ;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+      }
+      #or{
+        color: #868889;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
       }
 
 /* ------------------------------------------------------- */
@@ -161,8 +174,9 @@ padding-top: 250px;
 }
 footer span{
   color: red;
-  font-family: 'Square Peg', cursive;
+  font-family: 'Hurricane', cursive;
   font-size: 30px;
+
 }
 footer{
  
@@ -228,10 +242,21 @@ footer{
       height: 610px;
       background-color: #030006;
     }
+
+    #contact-text {
+    text-align: center;
+
+    }
+    #contact-text span{
+   
+      font-size: 18px;
+    }
+
     footer{
-      margin-top: 35px;
+      margin-top: 15px;
   
     }
+
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...}
@@ -244,5 +269,7 @@ footer{
 
 
 }
+/* ============================================ */
   
-  
+
+
