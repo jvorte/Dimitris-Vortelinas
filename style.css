@@ -327,15 +327,15 @@ footer{
     height: 24rem;
 
   }
-  #contact{
-    height: 590px;
+}
+@media only screen and (max-width: 992px) {
 
+  #contact{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
-  
-  footer{
-    margin-top: 150px;
-background-color: #CD4A5F;
-  }
+
 
 }
 /* ============================================ */
