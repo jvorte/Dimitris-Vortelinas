@@ -290,6 +290,13 @@ footer{
    
       font-size: 18px;
     }
+    .card{
+      width: 18rem;   
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    
+    }
 
     footer{
       margin-top: 15px;
