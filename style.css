@@ -276,7 +276,7 @@ to {
 #contact h1 {
 
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 100px;
   }
 
   #contact-input{
@@ -285,14 +285,22 @@ to {
     }
     #contact{
       margin-top: 10px;
-      height: 610px;
-      background-color: #030006;
+      height: 580px;
+    
     }
-
+    #contact-center{
+     margin-top: 40px;
+}
     #contact-text {
     text-align: center;
-
+    font-size: 13px;
     }
+
+    #contact-input label{
+ 
+      font-size: 13px;
+       }
+
     #contact-text span{
    
       font-size: 18px;
@@ -307,7 +315,7 @@ to {
 
   
     footer{
-      margin-top:0px;
+   
  
     }
 
