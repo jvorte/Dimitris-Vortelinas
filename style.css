@@ -192,6 +192,23 @@ padding-top: 270px;
       }
 
 /* ------------------------------------------------------- */
+
+/* ------------------------------------------------------- */
+#footer-title h6 {
+  text-align: center;
+}
+footer span{
+  color: red;
+  font-family: 'Hurricane', cursive;
+  font-size: 30px;
+
+}
+footer{
+ 
+  background-color: #030006;
+  color: #e9e8e5;
+}
+/* ------------------------------------------------------- */
 /* ----------------------shaking--------------------------------- */
 .shaking {
   font-weight:bold;
@@ -213,23 +230,6 @@ to {
 
 }
 /* ------------------------------------------------------- */
-/* ------------------------------------------------------- */
-#footer-title h6 {
-  text-align: center;
-}
-footer span{
-  color: red;
-  font-family: 'Hurricane', cursive;
-  font-size: 30px;
-
-}
-footer{
- 
-  background-color: #030006;
-  color: #e9e8e5;
-}
-/* ------------------------------------------------------- */
-
 /* =====================MEDIA============================= */
 
   /* Extra small devices (phones, 600px and down) */
@@ -262,7 +262,7 @@ footer{
   margin-top: 0px;
 }
 #me{
-  height: 1550px;
+  height: 1200px;
 }
 #me1{
   height: 330px;
@@ -284,6 +284,7 @@ footer{
     padding-top: 20px;
     }
     #contact{
+      margin-top: 10px;
       height: 610px;
       background-color: #030006;
     }
@@ -304,9 +305,10 @@ footer{
       height: auto;
     }
 
-    footer{
-      margin-top: 15px;
   
+    footer{
+      margin-top:0px;
+ 
     }
 
 }
@@ -323,8 +325,16 @@ footer{
     height: 24rem;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1800px) {
+#contact{
 
+  height: 700px;
+}
+  #contact-center{
+ 
+      margin-left: auto;
+      margin-right: auto;
+}
 }
 /* ============================================ */
   
