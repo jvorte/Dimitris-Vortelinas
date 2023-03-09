@@ -27,15 +27,15 @@
 
   a:hover {
     background-color: #CD4A5F;
-  }   
-
-#top-nav{
- 
+  } 
+  
+  #top-nav{
     background-color: #030006;
-}
+  }
 
     #top-nav a{
     color: aliceblue;
+
 }
 
 #top{
@@ -124,7 +124,7 @@ padding-bottom: 50px;
 
 .card{
   width: 21rem;
-  height: 23rem;
+  height: 25rem;
  text-align: center;
   border-radius: 15px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -235,8 +235,9 @@ to {
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #top-nav a{
-  margin-right: -10px;
+  padding-left: 0px;
 }
+
   #top img{
     width: 100%;
     height: auto;  
@@ -311,12 +312,6 @@ to {
       margin-left: auto;
       margin-right: auto;
       height: auto;
-    }
-
-  
-    footer{
-   
- 
     }
 
 }
