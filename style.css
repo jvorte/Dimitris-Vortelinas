@@ -1,0 +1,347 @@
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Indie+Flower&family=Poppins:wght@400&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@500&display=swap');
+  /*
+   font-family: 'Hurricane', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+   */
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  .material-symbols-rounded {  
+     color:red;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48  }
+
+  body{
+   background-color: #030006;
+  }
+
+  a:hover {
+    background-color: #CD4A5F;
+  } 
+  
+  #top-nav{
+    background-color: #030006;
+  }
+
+    #top-nav a{
+    color: aliceblue;
+
+}
+
+#top{
+    background-color: #030006;
+    height: 900px;
+}
+#top img{
+  width: 100%;
+  height: auto;  
+  margin-top: 170px;
+}
+#top h1{
+  font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+    font-size: 5vw;
+    margin: 170px 0 0 0;
+}
+#top p{
+  font-family: 'Poppins', sans-serif;
+    color:#868889;
+    font-size: 20px;
+    margin: 30px 0 0 0 ;
+}
+
+
+/* ------------------------------------------------------- */
+
+/* ------------------------------------------------------- */
+#me{
+  background-image: url('img/9.jpg');
+
+}
+#me1 img{
+  width: 100%;
+  height: auto;
+  margin-top: 163px;
+}
+#me1{
+   height: 950px;
+}
+#me2{  
+  height: 950px;
+  padding-top: 200px;
+  color: #414141;
+  font-family: 'Roboto Slab', serif;
+  
+}
+#me2 h6{  
+  font-family: 'Poppins', sans-serif;
+}
+#me2 h1{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+
+}
+.list-group-item{
+  background-color: transparent;
+  color: #414141;
+  font-family: 'Roboto Slab', serif;
+  
+}
+/* ------------------------------------------------------- */
+#projects{
+  height: auto;
+  background-color: #f3eef8;
+}
+
+#projects h1 {
+text-align: center;
+font-family: 'Roboto Slab', serif;
+font-size: 50px;
+color: #414141;
+}
+#proj-expl{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#project-center{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.card{
+  width: 21rem;
+  height: 25rem;
+ text-align: center;
+  border-radius: 15px; 
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+
+}
+/* .card .btn{
+border: 1px solid #868889;
+} */
+.card h4{
+  font-family: 'Roboto Slab', serif;
+}
+.card h6{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.card img{
+  border-radius: 15px; 
+ height: 12rem;
+}
+
+/* ------------------------------------------------------- */
+#contact{
+  height: 890px;
+  background-color: #030006;
+}
+#contact h1 {
+color: white;
+font-family: 'Roboto Slab', serif;
+font-size: 60px;
+padding-top: 270px;
+}
+#contact p ,label {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  
+  }
+#contact-text{
+ 
+  }
+  #contact-input{
+    padding-left: ;
+    padding-top: 250px;
+    }
+    #contact-input label{
+     color: #f3eef8;
+     font-size: 15px;
+      }
+      #contact-text span{
+        color: red;
+        font-family: 'Indie Flower', cursive;
+        font-size: 28px;
+      }
+   
+      #btn{
+        background-color:#1F252B ;;
+        color:white ;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+      }
+      #or{
+        color: #868889;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+      }
+
+/* ------------------------------------------------------- */
+
+/* ------------------------------------------------------- */
+#footer-title h6 {
+  text-align: center;
+}
+footer span{
+  color: red;
+  font-family: 'Hurricane', cursive;
+  font-size: 30px;
+
+}
+footer{
+ 
+  background-color: #030006;
+  color: #e9e8e5;
+}
+/* ------------------------------------------------------- */
+/* ----------------------shaking--------------------------------- */
+.shaking {
+  font-weight:bold;
+  color:#333;
+  display:block;
+}
+.shaking:hover {    
+  -webkit-animation: shake 1s ease-in-out 0.1s infinite alternate;
+}
+
+@-webkit-keyframes shake {
+from {
+  -webkit-transform: rotate(5deg);
+}
+to {
+ -webkit-transform-origin:center center;
+ -webkit-transform: rotate(-5deg);
+}
+
+}
+/* ------------------------------------------------------- */
+/* =====================MEDIA============================= */
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #top-nav a{
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+  #top img{
+    width: 100%;
+    height: auto;  
+    margin-top: 120px;
+  }
+  #top h1{
+ font-size: 30px;
+      margin: 17px 0 0 0;
+  }
+  #top p{
+  
+      font-size: 18px;
+  
+  }
+  #top{
+    background-color: #030006;
+    height: 700px;
+}
+
+#me1 img{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+#me{
+  height: 1400px;
+}
+#me1{
+  height: 330px;
+}
+#me2{  
+ height: 200px;
+ padding-top: 0px;
+
+ 
+}
+#contact h1 {
+
+  font-size: 30px;
+  padding-top: 100px;
+  }
+
+  #contact-input{
+    padding-left: ;
+    padding-top: 20px;
+    }
+    #contact{
+      margin-top: 10px;
+      height: 580px;
+    
+    }
+    #contact-center{
+     margin-top: 40px;
+}
+    #contact-text {
+    text-align: center;
+    font-size: 13px;
+    }
+
+    #contact-input label{
+ 
+      font-size: 13px;
+       }
+
+    #contact-text span{
+   
+      font-size: 18px;
+    }
+    .card{
+      width: 18rem;   
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1024px) {
+  .card{
+    width: 18rem; 
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 1800px) {
+#contact{
+
+  height: 700px;
+}
+  #contact-center{
+ 
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 180px;
+}
+}
+/* ============================================ */
+  
+
+
